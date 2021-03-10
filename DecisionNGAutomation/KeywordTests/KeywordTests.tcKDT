@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="General">
+			<child name="Login" key="{4E93CBA3-BF0C-4565-AA88-18635CDA19BD}" path="Login.tcKDTest" />
+			<child name="Logout" key="{33FB30BA-901B-465F-BDC0-B6990D4AF87A}" path="Logout.tcKDTest" />
+		</folder>
+		<folder name="Modeling">
+			<folder name="Modeling DV" />
+			<folder name="Modeling FT">
+				<child name="Create_Fact_Type" key="{E414CE61-F5CC-4F1C-8186-D61F2EE688D1}" path="Create_Fact_Type.tcKDTest" />
+				<child name="CreateFt2" key="{5FC65572-8740-45F2-B2BA-11591E6636B5}" path="CreateFt2.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Tasks" />
+		<child name="Test1" key="{C60F5EE6-26AE-4EA2-A0DE-157DD2DF9AF4}" path="Test1.tcKDTest" />
+	</children>
+</Root>

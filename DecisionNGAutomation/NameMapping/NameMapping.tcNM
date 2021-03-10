@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{011B6C2B-6889-45C2-8A54-97F314AB5312}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{F41DBD0E-132F-4638-B0E2-0AF5D4CB6302}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{670586CA-9BD4-4A3C-ABE3-4C4E2444295D}">
+								<Image FileName="808700598" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSapiensDecision" Key="{59AE828C-80AB-428F-946B-0785E3E51018}">
+								<Image FileName="808700598" Left="0" Top="103" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://bdmsuat8:8854/enterprise/index.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonAddFactType" Key="{2942E9EF-8BD2-44CA-8715-4835B77DB62E}">
+										<Image FileName="808700598" Left="200" Top="223" Right="321" Bottom="253" />
+										<TypeInfo Item0="{57084058-9693-4D45-8E1B-439996FB90DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;+Add Fact Type&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".task-facts__create-button" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-task/div/dcn-navigation-menu/div/dcn-task-fact-types/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//dcn-task-fact-types/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{CECFE36A-0002-4E59-888D-E0FE33A1DD80}">
+										<Image FileName="320677157" Left="283" Top="190" Right="1083" Bottom="664" />
+										<Selectors>
+											<Selector>
+												<Value Value=".u-position--relative &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-12&apos;]/fact-type-dialog/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(.,&apos;Fact Type Summary:&#32;&#32;DRAFTMore Details Details&#32;&#32;Name&#32;&#32;Description&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;List Indicator Single ValueMultiple Values Data Type&#32;&#32;Display Format&#32;&#32;Allowed Values&#32;&#32;Max Length&#32;&#32;Cancel OK&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFactTypeSummary" Key="{C9957A86-4937-4799-8C53-DF378038F179}">
+										<Image FileName="320677157" Left="283" Top="190" Right="446" Bottom="222" />
+										<TypeInfo Item0="{738314E8-EB59-4140-8AAF-2909CB8F9F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-dialog-title-25" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;Fact Type Summary:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[@id=&apos;mat-dialog-title-25&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-12&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="Add selector" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form2" Key="{626D26F8-3A62-41A5-9DF7-62E805B4B3B8}">
+										<Image FileName="320677157" Left="283" Top="243" Right="1083" Bottom="567" />
+										<Selectors>
+											<Selector>
+												<Value Value="fact-type-form &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-12&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div[2]/div/fact-type-form/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form/form" />
+											</Selector>
+											<Selector>
+												<Value Value="(//form[contains(.,&apos;DRAFTMore Details Details&#32;&#32;Name&#32;&#32;Description&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;List Indicator Single ValueMultiple Values Data Type&#32;&#32;Display Format&#32;&#32;Allowed Values&#32;&#32;Max Length&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form3" Key="{03B70188-1F7D-4E76-9A75-7DA9EE095C32}">
+										<Image FileName="320677157" Left="317" Top="339" Right="1032" Bottom="759" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-10-content&apos;]/div/fact-type-form-details/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//fact-type-form-details/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="(//form[contains(.,&apos;Name&#32;&#32;Description&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;List Indicator Single ValueMultiple Values Data Type&#32;&#32;Display Format&#32;&#32;Allowed Values&#32;&#32;Max Length&apos;)])[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{22EDEE33-511F-4430-AD72-DBF790AB814B}">
+										<Image FileName="320677157" Left="540" Top="339" Right="1032" Bottom="375" />
+										<TypeInfo Item0="{BC474451-48E8-4A58-928B-9BFFBE7D25C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-10-content&apos;]/div/fact-type-form-details/div/form/fx-field/div/div/span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaDescription" Key="{E215BB8B-5FDC-4930-9BC3-6DD7279843D7}">
+										<Image FileName="-515181515" Left="540" Top="392" Right="1032" Bottom="460" />
+										<TypeInfo Item0="{738314E8-EB59-4140-8AAF-2909CB8F9F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-10-content&apos;]/div/fact-type-form-details/div/form/fx-field[2]/div/div/span/textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSingleValue" Key="{CE7E7051-86FC-4D5C-93C6-49E1004CB7C4}">
+										<Image FileName="-554940909" Left="544" Top="480" Right="651" Bottom="506" />
+										<TypeInfo Item0="{738314E8-EB59-4140-8AAF-2909CB8F9F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Single Value&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Single Value&apos;] &gt; .ui-button-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-10-content&apos;]/div/fact-type-form-details/div/form/fx-field[3]/div/div/span/dcn-select-button/div/p-selectbutton/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-selectbutton/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form4" Key="{25CDFA77-8494-4372-88F6-A5824FD52F15}">
+										<Image FileName="-755650911" Left="317" Top="528" Right="1032" Bottom="759" />
+										<Selectors>
+											<Selector>
+												<Value Value="domain-form-component &gt; .ng-untouched" />
+											</Selector>
+											<Selector>
+												<Value Value="(//form[contains(.,&apos;Data Type&#32;&#32;Display Format&#32;&#32;Allowed Values&#32;&#32;Max Length&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-10-content&apos;]/div/fact-type-form-details/div/form/domain-form-component/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//domain-form-component/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{356DFFE6-A143-4745-AE50-3A10F2A9B5BB}">
+										<Image FileName="-755650911" Left="540" Top="528" Right="996" Bottom="564" />
+										<TypeInfo Item0="{BC474451-48E8-4A58-928B-9BFFBE7D25C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[name=&apos;dataType&apos;]:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; [type=&apos;text&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-10-content&apos;]/div/fact-type-form-details/div/form/domain-form-component/form/fx-field/div/div/span/dcn-combo-box/wj-combo-box/div/div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//wj-combo-box/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox2" Key="{F1AFB64B-FB97-4F3B-AB33-415BF35BF473}">
+										<Image FileName="2044215450" Left="540" Top="355" Right="996" Bottom="391" />
+										<TypeInfo Item0="{BC474451-48E8-4A58-928B-9BFFBE7D25C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[name=&apos;displayFormat&apos;]:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; [type=&apos;text&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-11-content&apos;]/div/fact-type-form-details/div/form/domain-form-component/form/fx-field[2]/div/div/span/dcn-combo-box/wj-combo-box/div/div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[2]/div/div/span/dcn-combo-box/wj-combo-box/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox3" Key="{4B61CD64-DFE8-4F55-A6EF-6B173834568B}">
+										<Image FileName="-1655630848" Left="540" Top="420" Right="996" Bottom="456" />
+										<TypeInfo Item0="{BC474451-48E8-4A58-928B-9BFFBE7D25C2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[name=&apos;allowedValues&apos;]:nth-child(1) &gt; .wj-control:nth-child(1) &gt; .wj-template:nth-child(1) &gt; .wj-input:nth-child(1) &gt; .wj-input-group:nth-child(1) &gt; [type=&apos;text&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-11-content&apos;]/div/fact-type-form-details/div/form/domain-form-component/form/fx-field[3]/div/div/span/dcn-combo-box/wj-combo-box/div/div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//fx-field[3]/div/div/span/dcn-combo-box/wj-combo-box/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{52402861-ED54-495D-B14A-9DBC932FB650}">
+										<Image FileName="-715970976" Left="983" Top="607" Right="1083" Bottom="641" />
+										<TypeInfo Item0="{57084058-9693-4D45-8E1B-439996FB90DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;OK&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".primary" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-dialog-13&apos;]/fact-type-dialog/div/form/dcn-dialog/div/div[3]/div/button[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAutoft2V0" Key="{191E6D55-0545-4219-82C2-F28B742982EC}">
+										<Image FileName="300694066" Left="251" Top="322" Right="334" Bottom="341" />
+										<TypeInfo Item0="{738314E8-EB59-4140-8AAF-2909CB8F9F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;AutoFT2 [V0]&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ui-selectable-row:nth-child(1) &gt; .ng-star-inserted:nth-child(1) &gt; .u-ellipsis:nth-child(1) &gt; .u-flex-container:nth-child(1) &gt; .u-flex-item--is-12:nth-child(2) &gt; .task-facts__datagrid__link:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;body&apos;]/dcn-enterprise-app/dcn-shell/div/div[2]/dcn-task/div/dcn-navigation-menu/div/dcn-task-fact-types/dcn-datagrid/div[2]/p-table/div/div/table/tbody/tr/td/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMultipleValues" Key="{70EFFDB9-7DE2-4C9A-9007-8AE64BB88117}">
+										<Image FileName="-1875274090" Left="656" Top="480" Right="784" Bottom="506" />
+										<TypeInfo Item0="{738314E8-EB59-4140-8AAF-2909CB8F9F99}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Multiple Values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Multiple Values&apos;] &gt; .ui-button-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ui-accordiontab-4-content&apos;]/div/fact-type-form-details/div/form/fx-field[3]/div/div/span/dcn-select-button/div/p-selectbutton/div/div[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-selectbutton/div/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{F41DBD0E-132F-4638-B0E2-0AF5D4CB6302}">
+			<Child Name="BrowserWindow" Owner="{670586CA-9BD4-4A3C-ABE3-4C4E2444295D}" />
+			<Child Name="pageSapiensDecision" Owner="{59AE828C-80AB-428F-946B-0785E3E51018}">
+				<Child Name="buttonAddFactType" Owner="{2942E9EF-8BD2-44CA-8715-4835B77DB62E}" />
+				<Child Name="form" Owner="{CECFE36A-0002-4E59-888D-E0FE33A1DD80}">
+					<Child Name="textnodeFactTypeSummary" Owner="{C9957A86-4937-4799-8C53-DF378038F179}" />
+					<Child Name="form2" Owner="{626D26F8-3A62-41A5-9DF7-62E805B4B3B8}">
+						<Child Name="form3" Owner="{03B70188-1F7D-4E76-9A75-7DA9EE095C32}">
+							<Child Name="textboxName" Owner="{22EDEE33-511F-4430-AD72-DBF790AB814B}" />
+							<Child Name="textareaDescription" Owner="{E215BB8B-5FDC-4930-9BC3-6DD7279843D7}" />
+							<Child Name="textnodeSingleValue" Owner="{CE7E7051-86FC-4D5C-93C6-49E1004CB7C4}" />
+							<Child Name="textnodeMultipleValues" Owner="{70EFFDB9-7DE2-4C9A-9007-8AE64BB88117}" />
+						</Child>
+						<Child Name="form4" Owner="{25CDFA77-8494-4372-88F6-A5824FD52F15}">
+							<Child Name="textbox" Owner="{356DFFE6-A143-4745-AE50-3A10F2A9B5BB}" />
+							<Child Name="textbox2" Owner="{F1AFB64B-FB97-4F3B-AB33-415BF35BF473}" />
+							<Child Name="textbox3" Owner="{4B61CD64-DFE8-4F55-A6EF-6B173834568B}" />
+						</Child>
+					</Child>
+					<Child Name="buttonOk" Owner="{52402861-ED54-495D-B14A-9DBC932FB650}" />
+				</Child>
+				<Child Name="linkAutoft2V0" Owner="{191E6D55-0545-4219-82C2-F28B742982EC}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

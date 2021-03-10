@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{B37AF8B6-C1DD-40AA-B8D5-1CC07AC028D6}">
+	<children>
+		<child name="DecisionNGAutomation" key="{10ABDB51-1CA2-4516-9D5B-9295EB1B0B69}" path="DecisionNGAutomation\DecisionNGAutomation.mds" />
+	</children>
+	<testItems key="{A51955C2-E57B-4678-B0DC-DDC240BE7461}">
+		<children>
+			<testItem key="{10ABDB51-1CA2-4516-9D5B-9295EB1B0B69}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{53BD39B1-5A9B-4786-BFFF-66240B4C6D75}" />
+	<analysis key="{99D4CBD3-BDD0-47BC-9EF3-32DF6BB0517D}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
